@@ -75,6 +75,18 @@
             android:entryValues="@array/screen_timeout_values"
             android:defaultValue="15000" />
 
+	<com.xtended.support.preferences.SecureSettingSwitchPreference
+            android:key="screen_off_udfps_enabled
+            android:title="Screen off UDFPS""
+            android:summary="long press on fod for unlocking while screen off"
+            android:defaultValue="true" />
+
+        <com.xtended.support.preferences.SystemSettingSwitchPreference
+            android:key="screen_off_udfps_enabled
+            android:title="Screen off fod""
+            android:summary="long press on fod for unlocking while screen off"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
